@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    main{
+    display: flex;
+    height: 100vh;
+    background-color: darkgrey;
+    }
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    .one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: gainsboro;
+    padding: 10px;
+    }
+    .chats{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    }
+    .header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    height: 50px;
+    }
+    #sear{
+    width: 280px;
+    border-radius: 5px;
+    margin-left: 3px;
+    background-color: darkgray;
+    }
+    .items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    }
+    .anchor{
+    background-color: darkcyan;
+    border-radius: 5px;
+    }
+    .person{
+    border-bottom: 2px solid darkgray;
+    padding: 10px;
+    }
+    .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+    height: 70px;
+    background-color: lavender;
+    flex: 2;
+    margin-bottom:20px;
+    }
+    section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80vh;
+    overflow-y: auto;
+    background-color: silver;
+    }
+    .lefo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 40%;
+    }
+    .lefo p{
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 10px;
+    width: fit-content;
+    }
+    .lefo2{
+    margin-top: 40px;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 40%;
+    margin-left: 20%;
+    }
+    .lefo2 p{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    }
+    .devo{
+    height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    }
+    .photos{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    }
+    img{
+    border-radius: 7px;
+    }
+    .names{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 9px;
+    height: 100vh;
+    }
+    .der{
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: white;
+    }
+    .ending{
+    height: 10vh;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    #chatmessage{
+    border-radius: 5px;
+    width: 80%;
+    }
