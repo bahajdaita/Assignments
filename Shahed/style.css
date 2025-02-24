@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .left a,
+  .right a {
+    border-radius: 7px;
+    color: azure;
+  }
+  
+  main {
+    height: 100vh;
+    background-color: darkred;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 2px solid black;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    margin-left: 9px;
+  }
+  .sec {
+    display: flex;
+  }
+  .description {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 6px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    justify-content: center;
+    height: 600px;
+  }
+  .type {
+    display: flex;
+    gap: 5px;
+  }
+  .word {
+    margin-bottom: 7px;
+    background-color: darkred;
+    border-radius: 10px;
+    color: beige;
+  }
+  .iframe {
+    width: 100%;
+  }
+  
+  .category div {
+    min-width: 200px;
+    height: 180px;
+  }
+  
+  .secondhalf {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 30px;
+    background-color: black;
+    max-width: 2000px;
+  }
+  #watch {
+    border-radius: 20px;
+  }
+  
+  .category {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    height: 200px;
+  }
