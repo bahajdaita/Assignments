@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+</head>
+<body id="bodyy">
+    
+
+
+
+
+<form  id="gform"      >
+
+
+<h1>Add user information</h1>
+
+<h3 id="indicator">User added succesfully</h3>
+
+
+
+<div  class="input-group1">
+
+<label for="email-field" id="email-label">Email</label>
+<input required name="yes"  type="email" id="email-field" onkeyup="validateEmail()"   >
+<span id="email-error"> </span>
+
+</div>
+
+
+<div class="input-group2">
+
+<label for="name-field" id="name-label">Name</label>
+<input required type="text" id="name-field" onkeyup="validateName()"  >
+<span id="name-error" ></span>
+
+</div>
+
+
+<div class="input-group3">
+
+    <label for="phone-field" id="phone-label">Phone number</label>
+    <input required type="tel" id="phone-field" onkeyup="validateNumber()">
+    <span id="phone-error" ></span>
+    
+    </div>
+
+    <div id="cont" style="width: 60%;" >
+
+      <select required id="selection" class="form-select" aria-label="Default select example"  >
+        <option id="gender-label" value="">Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+       
+    
+      </select>
+
+
+
+
+
+</div>
+
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label" > Address </label>
+  <textarea  required class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+
+
+
+
+
+
+<div>
+
+
+<button   id="adding"  class="btn btn-primary"  type="submit"  >  Add user</button>
+<button  id="reviewing" class="btn btn-primary"  type="button" >Review user information</button>
+
+
+</div>
+
+
+
+
+
+
+</form>
+
+
+<table id="table" class="table table-dark table-striped  ">
+    
+
+  <thead>
+  
+  <tr>
+  
+  <th>Name</th>
+  <th>Email</th>
+  <th>Phone number</th>
+  <th>Gender</th>
+  <th>Adress</th>
+  
+  </tr>
+  
+  
+  
+  </thead>
+  
+  
+  <tbody id="info" >
+  
+  
+  
+  
+    
+  
+  
+  
+  </tbody>
+  
+  
+  
+  
+  
+  
+    </table>
+
+    <div id="cards" class="card" style="width: 18rem;">
+        <div class="card-header">
+          User information
+        </div>
+        <ul id="rems"class="list-group list-group-flush ">
+          
+            
+
+
+
+        </ul>
+      </div>
+
+
+
+      <button id="switching" class="btn btn-primary"  type="button" > Go to previous page </button>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+
+
+
+    
+</body>
+</html>
