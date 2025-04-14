@@ -180,13 +180,16 @@ list.appendChild(row)
 }
 
 addCard(p)  {
-cardInfo.innerHTML=`
 
-<li class="list-group-item">${p.name}</li>
-<li class="list-group-item">${p.email}</li>
-<li class="list-group-item">${p.phone}</li>
-<li class="list-group-item">${p.gender}</li>
-<li class="list-group-item">${p.address}</li>
+cardInfo.innerHTML += `
+<div class='col-xl-3 col-md-4 col-xs-12 card m-2'>
+<div >${p.name}</div>
+<div >${p.email}</div>
+<div>${p.phone}</div>
+<div >${p.gender}</div>
+<div >${p.address}</div>
+</div>
+
 
 `
 clearr()
