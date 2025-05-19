@@ -180,7 +180,7 @@ list.appendChild(row)
 }
 
 addCard(p)  {
-cardInfo.innerHTML=`
+cardInfo.innerHTML += `
 
 <li class="list-group-item">${p.name}</li>
 <li class="list-group-item">${p.email}</li>
